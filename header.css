@@ -1,0 +1,26 @@
+.smaller {
+	background: #ffffff;
+	height: 60px;
+}
+header {width: 100%;
+overflow: hidden;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 2000;
+transition: height 0.3s;
+}
+img {
+	max-width: 100%;
+	border: 0;
+}
+h1.logo {
+	width: 150px;
+	padding-top: 0px;
+	height: 52px;
+	display: inline-block;
+	float: left;
+}
+a {
+    text-decoration: none;
+}
