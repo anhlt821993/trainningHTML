@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Ominext</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title> HTML can ban </title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/style1.css"> -->
+	 <link rel="stylesheet" href="css/style.css" />
+ <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 </head>
 <body>
+	<div id="header">
+		<div id="header_margin">
+			<div id="logo" class="header_margin_left">
+				<img src="images/logo.png" alt="logo">
+			</div>
+			<div id="slogan" class="header_margin_left">
+				<!-- <img src="image/slogan.png" alt="slogan"> -->
+			</div>
+			<!-- <div id="form_search" class="header_margin_left">
+				<form  method="" action="">
+					<input type="text" name="" value="">
+					<button></button>
+				</form>
+			</div> -->
+			<div id="menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- slider and menu -->
+	<div id="slider_menu">
+		<div id="slider_menu_margin">
+			<div class="bg">
+				<!-- <img src="images/bg_img.png" alt=""> -->
+				<div class="certificate">
+					<img src="images/certificate.jpg" alt="">
+				</div>
+			</div>
+		</div>	
+	</div>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><img id="imglogo" alt="" src="images/logo.png"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  <div class="profile">
-  	<div id="titleImg"></div>
-  </div>
-<div class="container-fluid text-center">    
-  <div class="row content">
+	<!--content-->
+	<div class="container-fluid text-center">    
+  	<div class="row content">
     <div class="col-sm-2 sidenav">
       <!-- <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
@@ -61,24 +65,19 @@
         <img id="img02" alt="" src="images/profile02.png">
       </div>
     </div>
-  </div>
-</div>
+  	</div>
+	</div>
 
-<div class="container">
-    <section style="height:80px;"></section>
-	<!-- <div class="row" style="text-align:center;">
-		<h2>Bootstrap Dark Footer UI</h2>
-	</div> -->
-    <!----------- Footer ------------>
-    <footer class="footer-bs">
+	<!-- footer -->
+	<footer class="footer-bs">
         <div class="row">
-        	<div class="col-md-3 footer-brand animated fadeInLeft">
+          <div class="col-md-3"> 
             	<h2>OMINEXT</h2>
                 <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
                 <p>© 2014 BS3 UI Kit, All rights reserved</p>
           </div>
-        	<div class="col-md-4 footer-nav animated fadeInUp">
-            	<h4>Menu —</h4>
+        	<div class="col-md-4">
+            	<h4>Menu	</h4>
             	<div class="col-md-6">
                     <ul class="pages">
                         <li><a href="#">Web Development</a></li>
@@ -97,7 +96,7 @@
                     </ul>
                 </div>
             </div>
-        	<div class="col-md-2 footer-social animated fadeInDown">
+        	<div class="col-md-2">
             	<h4>Follow Us</h4>
             	<ul>
                 	<li><a href="#">Facebook</a></li>
@@ -106,9 +105,9 @@
                 	<li><a href="#">RSS</a></li>
                 </ul>
             </div>
-        	<div class="col-md-3 footer-ns animated fadeInRight">
+        	<div class="col-md-3">
             	<h4>Newsletter</h4>
-                <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+                <p>A rover wearing a fuzzy suit does not alarm the real penguins</p>
                 <p>
                     <div class="input-group">
                       <input type="text" class="form-control" placeholder="Search for...">
@@ -121,9 +120,5 @@
             </div>
         </div>
     </footer>
-    <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="http://enfoplus.net">L.T.A</a></p></section>
-
-</div>
-
 </body>
 </html>

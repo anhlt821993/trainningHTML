@@ -1,9 +1,0 @@
-/*.profile #titleImg {background-image: url(title_img.png);}*/
-#titleImg{
-background-image: url(title_img.png);
-height: 346px;
-background-repeat: no-repeat;
-background-position: 50% 0;
-margin-bottom: 40px;
-margin-top: 0px;
-}
