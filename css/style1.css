@@ -1,0 +1,157 @@
+.container-fluid{
+  margin-top: 34px;
+}
+
+
+body {
+  font-family: Tahoma;  
+  font-size: 13px;
+  background-image: url(../images/body.png);
+  margin: 0px;
+  padding: 0px;
+}
+
+ul { 
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+   list-style: none;
+}
+
+#header {
+  /*background: url(../image/bgtop.jpg) repeat-x;*/
+  /*height: 151px;*/
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  background-color: #ffffff;
+  height: 90px;
+}
+
+#header_margin {
+  /*border: 1px solid #000;*/
+  height: 151px;
+  width: 1000px;
+  margin: 0px auto;   
+}
+
+#header_margin .header_margin_left{
+   float: left;
+   height: 151px;
+}
+
+#header_margin #logo img{
+  width: 195px;
+  height: 57px;
+}
+
+#header_margin #logo img.welcome{
+  margin-top: 40px;
+}
+/*
+#header_margin #logo img{
+  margin-top: 50px;      
+}*/
+#header_margin #slogan{
+  margin-top: 25px; 
+}
+
+#header_margin #slogan{
+  width: 500px;
+}
+
+#header_margin #form_search {
+  width: 200px;
+  position: relative;
+}
+
+#header_margin #form_search input {
+  border: 1px solid #1154a4;
+  background: #c3ecf8;
+  height: 25px;
+  width: 200px;
+  margin-top: 25px;
+}
+
+#header_margin #form_search button {
+  background: url(../images/btn_search.png);
+  width: 21px;
+  height: 22px;
+  border: none;
+  position: absolute;
+  top: 28px;
+  right: 0px;
+}
+
+#slider_menu{
+  background: url(../images/bgslide.jpg) repeat-x;
+  height: 467px;
+}
+
+#slider_menu_margin{
+  margin: 0px auto; 
+  height: 467px;
+  width: 1000px;
+}
+
+#slider_menu_margin #menu{
+  height: 40px;
+  background: #FFF;
+  width: 1000px;
+}
+
+#header_margin #menu ul li{
+  float: right;
+  margin-bottom: 10px;
+}
+
+#header_margin #menu ul li a{
+  float: right;
+  font-family: Lucida;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  line-height: 40px;
+  /*background: url(../images/line.png) no-repeat right;*/
+  padding: 0px 15px 0px 15px;
+} 
+
+#header_margin #menu ul li a:hover {
+  background: #eb2629;
+}
+
+#slider_menu_margin #slider img{
+  height: 467px;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.bg{
+  background: url("../images/bg_img.png") no-repeat top center;
+/*  height: 555px;
+  width: 1583px;
+  margin-top: 0px;*/
+  margin: 0 auto;
+  position: relative;
+  height: 500px;
+  padding: 0;
+  border: 0;
+}
+
+.bg img{
+  border: 0;
+  margin: 0;
+  padding:0;
+  vertical-align: baseline;
+  margin-top: 350px;
+  margin-left: 650px;
+}
+
+#footer_about{
+  float: left;
+}
